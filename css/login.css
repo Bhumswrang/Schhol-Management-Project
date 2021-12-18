@@ -1,0 +1,75 @@
+
+body {
+font-family: 'Alegreya Sans';font-size: 18px;
+}
+
+.container{
+width:100%;
+/*height:175px;*/
+background-color:lightblue;
+border:1px solid black;
+}
+
+.navbar{
+width:100%;
+height:50px;
+background-color:black;
+border:1px solid black;
+}
+
+.navbar a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 20px;
+text-decoration: none;
+float:left;
+margin:5px;
+}
+
+.navbar a:hover {
+background-color: green;
+color: black;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+height:800px;
+
+}
+
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+
+@media screen and (max-width: 800px) {
+.navbar{
+width:100%;
+height:150px;
+}
+}    
+
+#id{
+margin-bottom: 5px;
+width:220px;
+padding: 9.5px;
+}
+#password{
+margin-top: 10px;
+width:220px;
+padding: 9.5px;
+}
+#submit{
+margin-top: 20px;
+padding: 13px;
+background-color: #333;
+width:150px;
+font-size:17px;
+color:white;
+}

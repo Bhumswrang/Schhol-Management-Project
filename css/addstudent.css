@@ -1,0 +1,27 @@
+.input{
+height: 2em;
+width: 30em;
+display:block ;
+margin-left: 200px;
+right:115px;
+}
+.label
+{
+margin-left: 200px;
+margin-right:inherit;
+}
+#submit
+{
+color:rgb(26, 1, 1);
+font-weight: bold;
+font-size: 16px;
+padding: 15px;
+background-color: slategrey;
+width:200px;
+margin-left: 200px;
+}
+.logoutadd{
+float:right;
+margin-right: 20px;
+margin-top: 1.8em;
+}
